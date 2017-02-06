@@ -1,11 +1,11 @@
 var React = require('react');
-var NavBar = require('./NavBar');
+var Navigation = require('./Navigation');
 
 var Main = React.createClass({
   render: function () {
     return (
       <div className='main-container'>
-      <NavBar />
+      <Navigation />
         {this.props.children}
       </div>
     )

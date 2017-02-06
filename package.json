@@ -4,15 +4,22 @@
   "description": "nba players and team stats",
   "main": "index.js",
   "dependencies": {
+    "acorn": "^3.1.0",
+    "axios": "^0.15.3",
+    "nba": "^3.2.1",
+    "nba-client-template": "^3.3.0",
     "react": "^15.4.1",
+    "react-bootstrap": "^0.30.7",
     "react-dom": "^15.4.1",
-    "react-router": "^3.0.0"
+    "react-router": "^3.0.0",
+    "react-router-bootstrap": "^0.23.1"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
     "babel-preset-react": "^6.16.0",
     "html-webpack-plugin": "^2.24.1",
+    "json-loader": "^0.5.4",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
   },
